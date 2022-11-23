@@ -1,2 +1,10 @@
 # rxjs-typescript-sample
-Rxjs with Typescript Samples
+
+RxJS with Typescript Samples
+
+## Run
+
+```bash
+$ docker-compose up -d
+$ docker-compose exec workspace bash
+```

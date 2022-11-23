@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  workspace:
+    image: denoland/deno:1.28.1
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
+    entrypoint: bash
